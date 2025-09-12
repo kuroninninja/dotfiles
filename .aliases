@@ -1,0 +1,2 @@
+# A shortened version of "dotnet run"
+alias drun="dotnet run"

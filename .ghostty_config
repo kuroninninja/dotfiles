@@ -42,7 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = tokyonight_moon
+theme = rose-pine
 font-family = "JetBrainsMono Nerd Font"
 macos-titlebar-style = tabs
 gtk-tabs-location = top

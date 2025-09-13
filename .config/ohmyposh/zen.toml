@@ -4,12 +4,12 @@ final_space = true
 
 [palette]
   black = '#262B44'
-  blue = '#4B95E9'
-  green = '#59C9A5'
-  orange = '#F07623'
-  red = '#D81E5B'
+  blue = '#9ccfd8'
+  green = '#31748f'
+  orange = '#f6c177'
+  red = '#eb6f92'
   white = '#E0DEF4'
-  yellow = '#F3AE35'
+  yellow = '#f6c177'
 
 [secondary_prompt]
   template = '<p:green,transparent></><,p:green> > </><p:green,transparent></> '
@@ -42,9 +42,9 @@ final_space = true
 
   [[blocks.segments]]
     template = '  {{ path .Path .Location }} '
-    foreground = 'p:white'
+    foreground = 'p:black'
     powerline_symbol = ''
-    background = 'p:blue'
+    background = 'p:yellow'
     type = 'path'
     style = 'powerline'
 
@@ -78,8 +78,8 @@ final_space = true
     leading_diamond = '<transparent,background></>'
     trailing_diamond = ''
     template = ' {{ if gt .Code 0 }}{{ else }}{{ end }} '
-    foreground = 'p:white'
-    background = 'p:blue'
+    foreground = 'p:black'
+    background = 'p:green'
     type = 'status'
     style = 'diamond'
     background_templates = ['{{ if gt .Code 0 }}p:red{{ end }}']

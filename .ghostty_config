@@ -44,5 +44,6 @@
 
 theme = rose-pine
 font-family = "JetBrainsMono Nerd Font"
+background = #000000
 macos-titlebar-style = tabs
 gtk-tabs-location = top

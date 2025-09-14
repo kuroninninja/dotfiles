@@ -4,4 +4,5 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'ThePrimeagen/vim-be-good'
     vim.cmd [[colorscheme rose-pine]]
+    use("nvim-treesitter/nvim-treesitter", {run = ':TSUpdate'})
 end)

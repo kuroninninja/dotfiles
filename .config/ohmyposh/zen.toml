@@ -3,13 +3,13 @@ version = 3
 final_space = true
 
 [palette]
-  black = '#262B44'
-  blue = '#9ccfd8'
-  green = '#31748f'
-  orange = '#f6c177'
-  red = '#eb6f92'
-  white = '#E0DEF4'
-  yellow = '#f6c177'
+  black = '#24273a'
+  blue = '#8aadf4'
+  green = '#a6da95'
+  orange = '#f5a97f'
+  red = '#ed8796'
+  white = '#cad3f5'
+  yellow = '#eed49f'
 
 [secondary_prompt]
   template = '<p:green,transparent></><,p:green> > </><p:green,transparent></> '

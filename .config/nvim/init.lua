@@ -29,7 +29,7 @@ vim.wo.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-vim.cmd [[highlight Normal guibg=#000000]]
+vim.api.nvim_set_option("clipboard", "unnamedplus")
 require('nvim-treesitter.configs').setup {
     highlight = { enable = true },
 }
